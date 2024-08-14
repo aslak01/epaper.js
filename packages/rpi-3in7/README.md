@@ -16,3 +16,9 @@ npm i -g @epaperjs/rpi-3in7
 ## License
 
 MIT
+
+    "scripts": {
+        "build": "node-gyp rebuild",
+        "clean": "node-gyp clean",
+        "build:clean": "pnpm clean && pnpm build"
+    },
